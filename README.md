@@ -3,6 +3,11 @@
 This project demonstrates the manual provisioning of a web application stack using Vagrant and VirtualBox. The application stack includes MySQL, Memcache, RabbitMQ, Tomcat, and Nginx.
 
 #### To check out this project through automated provisioning, [click here](https://github.com/pongraczfarkas/Multi-Tier-WebApp-Local-Automated)
+
+## Diagram
+
+![alt text](https://github.com/pongraczfarkas/Multi-Tier-WebApp-Local-Manual/blob/main/Manual%20provisioning%20diagram.png?raw=true)
+
 ## Prerequisites
 
    - Vagrant (2.3.7)
