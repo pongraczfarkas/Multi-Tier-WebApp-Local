@@ -1,6 +1,8 @@
 # Manual Provisioning of a Web Application with Vagrant and VirtualBox
 
 This project demonstrates the manual provisioning of a web application stack using Vagrant and VirtualBox. The application stack includes MySQL, Memcache, RabbitMQ, Tomcat, and Nginx.
+
+#### To check out this project through automated provisioning, [click here](https://github.com/pongraczfarkas/Multi-Tier-WebApp-Local-Automated)
 ## Prerequisites
 
    - Vagrant (2.3.7)
@@ -51,15 +53,17 @@ Once the Vagrant environment is up and running, you can access the application a
 
 Please refer to the installation manual [here](https://github.com/pongraczfarkas/Multi-Tier-WebApp-Local/blob/main/Instructions.pdf)
 
+## Validating
+
+After going through the Instruction manual, open a browser and type use [this URL](http://192.168.56.11:80)
+
 ## Stopping and Removing the Vagrant Environment
 
 To stop the Vagrant environment, run the following command:
-Bash
 
 ```vagrant halt```
 
 To remove the Vagrant environment and all associated virtual machines, run the following command:
-Bash
 
 ```vagrant destroy -f```
 
